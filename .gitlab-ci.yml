@@ -1,0 +1,16 @@
+image: "openkbs/jre-mvn-py3"
+
+stages:
+  - build
+
+# Each branch share the same cache
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+
+html validation:
+  stage: build
+  before_script:
+    - pip install html5validator
+    - export PATH="/home/developer/.local/bin:$PATH"
+  script:
+    - html5validator --root . --also-check-css
