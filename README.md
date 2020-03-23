@@ -2,7 +2,7 @@
 
 ![App Banner](banner.png)
 
-[![pipeline status](https://gitlab.com/As-12/Wheel-of-Success/badges/master/pipeline.svg)](https://gitlab.com/As-12/Wheel-of-Success-/commits/master)
+[![pipeline status](https://gitlab.com/As-12/Wheel-of-Success/badges/master/pipeline.svg)](https://gitlab.com/As-12/Wheel-of-Success/-/commits/master)
 
 ## Description
 
